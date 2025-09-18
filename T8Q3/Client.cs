@@ -38,9 +38,9 @@ class Client
     /// Gets the response using the given path and server hub.
     /// </summary>
     /// <param name="path">The path to get the response from, in the format serverIdentifier/endpointPath.</param>
-    /// <param name="serverHub"></param>
-    /// <returns></returns>
-    /// <exception cref="FailedRequestException"></exception>
+    /// <param name="serverHub">The server hub to get the response from.</param>
+    /// <returns>The response of the server endpoint.</returns>
+    /// <exception cref="FailedRequestException">Thrown when the response could not be fetched.</exception>
     public string Fetch(string path, ServerHub serverHub)
     {
         try

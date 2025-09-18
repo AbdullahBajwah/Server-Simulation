@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "uN1hsP7VWvg=",
+  "success": true,
+  "projectFilePath": "/Users/abdullahumair/Desktop/CAB201 Programming Principles/Practicals/Practical 8/T8Q3/T8Q3/T8Q3.csproj",
+  "expectedPackageFiles": [
+    "/Users/abdullahumair/.nuget/packages/microsoft.netcore.app.ref/8.0.13/microsoft.netcore.app.ref.8.0.13.nupkg.sha512",
+    "/Users/abdullahumair/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.13/microsoft.aspnetcore.app.ref.8.0.13.nupkg.sha512",
+    "/Users/abdullahumair/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.13/microsoft.netcore.app.host.osx-arm64.8.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
