@@ -1,4 +1,4 @@
-﻿namespace T8Q3;
+﻿namespace ServerSimulation;
 
 class Program
 {
