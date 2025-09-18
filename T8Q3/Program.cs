@@ -40,6 +40,10 @@ class Program
         Console.WriteLine("===========================");
     }
 
+    /// <summary>
+    /// Reads the option from the console.
+    /// </summary>
+    /// <returns>The option.</returns>
     static MenuOption ReadOption()
     {
         Console.WriteLine("---------------------------");
@@ -62,6 +66,13 @@ class Program
         return MenuOption.Default;
     }
 
+    /// <summary>
+    /// Executes the option selected.
+    /// </summary>
+    /// <param name="option">The option selected.</param>
+    /// <param name="serverHub">The hub of registered servers.</param>
+    /// <param name="client">The client.</param>
+    /// <returns>The option selected.</returns>
     static void OnOptionSelected(MenuOption option, ServerHub serverHub, Client client)
     {
         switch (option)
